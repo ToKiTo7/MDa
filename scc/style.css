@@ -3,12 +3,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 400vh;
+  height: 800vh;
   color: white;
   font-size: 24px;
   margin-left: 30px;
 }
-a{
+a {
   text-decoration: none;
   color: #ffffff;
 }
@@ -22,7 +22,27 @@ a{
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
-.bb{
+.bb {
   display: flex;
   justify-content: center;
+}
+.pub {
+  padding-right: 700px;
+}
+
+@media (max-width: 1440px) {
+  .pub {
+    padding-right: 500px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .pub {
+    padding-right: 300px;
+  }
+}
+@media (max-width: 768px) {
+  .pub {
+    padding-right: 200px;
+  }
 }
