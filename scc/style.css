@@ -1,0 +1,28 @@
+body {
+  background-image: url(../1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400vh;
+  color: white;
+  font-size: 24px;
+  margin-left: 30px;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header_conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__logo {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.bb{
+  display: flex;
+  justify-content: center;
+}
